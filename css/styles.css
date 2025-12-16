@@ -91,8 +91,9 @@ img,video{ max-width:100%; height:auto; display:block; }
 .card { background: var(--card-bg); border-radius: var(--radius-md); box-shadow: var(--card-shadow); padding: var(--space-m); }
 
 /* MAIN LAYOUT - mobile-first */
-.main-content { display:flex; flex-direction: column; gap: var(--space-l); margin-top: var(--space-l); }
-
+/* 16-12-2025 liyan's updates */
+.main-content { display:flex; flex-direction: column; gap: var(--space-l); margin-top: var(--space-xxs); }
+/* 16-12-2025 liyan's updates */
 /* === CHAT SECTION === */
 .chat-section { 
   display:flex; 
@@ -330,9 +331,9 @@ button:disabled { opacity:0.6; cursor:not-allowed; transform:none; }
 /* === UPLOADED CVS SECTION === */
 /* 16-12-2025 liyan's updates */
 .uploaded-cvs-section {
-  margin-top: 10;
+  margin-top: 4;
  }
- /* 16-12-2025 end liyan's updates */
+
 
 .uploaded-cvs-section h3 {
   display: flex;
@@ -341,9 +342,10 @@ button:disabled { opacity:0.6; cursor:not-allowed; transform:none; }
   font-size: 1rem;
   font-weight: 600;
   color: var(--text);
-  margin: 0 0 var(--space-s) 0;
+  margin: 0 0 var(--space-xl) 0;
   padding: 0;
  }
+  /* 16-12-2025 end liyan's updates */
 
 .uploaded-cvs-section h3 i {
   color: var(--primary);
