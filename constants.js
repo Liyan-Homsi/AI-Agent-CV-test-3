@@ -45,18 +45,29 @@ export function getFinalTrainingCoursesCatalog() {
 
 // === RULES CONFIG ===
 
+//16-12-2025 liyan's updates
+
 // Export these arrays directly so UI can compare them
+// export const DEFAULT_RULES_EN = [
+//   "Start with foundational certifications before advanced options.",
+//   "Align recommendations to the candidate's current or target role.",
+//   "Avoid overlapping certifications unless the user explicitly asks."
+// ];
+// export const DEFAULT_RULES_AR = [
+//   "ابدأ بالشهادات التأسيسية قبل الخيارات المتقدمة.",
+//   "قم بمحاذاة التوصيات مع الدور الحالي أو المستهدف للمرشح.",
+//   "تجنب الشهادات المتداخلة ما لم يطلب المستخدم ذلك صراحة."
+// ];
+
+
 export const DEFAULT_RULES_EN = [
-  "Start with foundational certifications before advanced options.",
-  "Align recommendations to the candidate's current or target role.",
-  "Avoid overlapping certifications unless the user explicitly asks."
+  "Align recommendations to the candidate's current or target role."
 ];
 
 export const DEFAULT_RULES_AR = [
-  "ابدأ بالشهادات التأسيسية قبل الخيارات المتقدمة.",
-  "قم بمحاذاة التوصيات مع الدور الحالي أو المستهدف للمرشح.",
-  "تجنب الشهادات المتداخلة ما لم يطلب المستخدم ذلك صراحة."
+  "قم بمحاذاة التوصيات مع الدور الحالي أو المستهدف للمرشح."
 ];
+//16-12-2025 liyan's updates
 
 // Helper to get the correct rules based on language
 export function getDefaultRules(lang = 'en') {
