@@ -328,9 +328,11 @@ button:disabled { opacity:0.6; cursor:not-allowed; transform:none; }
  }
 
 /* === UPLOADED CVS SECTION === */
+/* 16-12-2025 liyan's updates */
 .uploaded-cvs-section {
-  margin-top: var(--space-l);
+  margin-top: 10;
  }
+ /* 16-12-2025 end liyan's updates */
 
 .uploaded-cvs-section h3 {
   display: flex;
